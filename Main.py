@@ -8,7 +8,7 @@ with st.sidebar:
         menu_title="Main Menu",
         options = ["Home","Background","Contact"],
         icons= ["house","book","envelope"],
-        menu_icon="cast"
+        menu_icon="cast",
         default_index=0,
         orientation="horizontal",
     )
