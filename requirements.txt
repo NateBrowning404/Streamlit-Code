@@ -1,0 +1,5 @@
+boto3
+numpy
+pandas
+streamlit==1.39.0
+streamlit_option_menu
