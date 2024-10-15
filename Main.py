@@ -17,3 +17,8 @@ if selected == "Background":
     st.session_state.page = "Pages/Background.py"
 if selected == "Contact":
     st.session_state.page = "Pages/Contact.py"
+
+    page_path = os.path.join("Pages", st.session_state.page)
+    with open(page_path, "r", encoding="utf-8") as page_file:
+        code = page_file.read()
+        exec(code)
