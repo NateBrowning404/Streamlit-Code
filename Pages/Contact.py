@@ -1,4 +1,3 @@
 import streamlit as st
 
-def app():
-    st.write("Contact test")
+st.write("Contact test")
