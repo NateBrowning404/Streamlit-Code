@@ -20,12 +20,6 @@ class MultiApp:
             icons= ["house","book","envelope"],
             #menu_icon="cast",
             default_index=1,
-            styles={
-                "container": {"background-color":'blue'},
-                "icon": {"color": "white"},
-                "nav-link": {"color": "white"},
-                "nav-link-selected": {"background-color": "yellow"},
-            }
             orientation="horizontal",
             )
 
