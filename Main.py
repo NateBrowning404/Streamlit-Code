@@ -11,6 +11,5 @@ selected = option_menu(
     orientation="horizontal",
 )
 
-
-st.title("Test Site")
-st.write("Please work, please")
+st.sidebar.page_link("Home.py", label="Home")
+st.sidebar.page_link("Background.py", label="Background")
