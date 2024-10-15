@@ -14,7 +14,7 @@ class MultiApp:
         })
 
     def run():
-        selected = option_menu(
+        app = option_menu(
             menu_title = None,
             options = ["Home","Background","Contact"],
             icons= ["house","book","envelope"],
@@ -27,13 +27,14 @@ class MultiApp:
                 "nav-link-selected": {"background-color": "yellow"},
             }
             orientation="horizontal",
+            )
 
-            if app == 'Home':
-                Home.app()
-            if app == 'Background':
-                Background.app()
-            if app == 'Contact':
-                Contact.app()
+        if app == 'Home':
+            Home.app()
+        if app == 'Background':
+            Background.app()
+        if app == 'Contact':
+            Contact.app()
 
     run()
 )
