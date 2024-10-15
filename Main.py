@@ -12,8 +12,8 @@ selected = option_menu(
 )
 
 if selected == "Home":
-    st.switch_page("Home.py")
+    st.switch_page("Pages/Home.py")
 if selected == "Background":
-    st.switch_page("Background.py")
+    st.switch_page("Pages/Background.py")
 if selected == "Contact":
-    st.switch_page("Contac.py")
+    st.switch_page("Pages/Contact.py")
