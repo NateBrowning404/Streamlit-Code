@@ -11,3 +11,9 @@ selected = option_menu(
     orientation="horizontal",
 )
 
+if st.button("Home"):
+    st.switch_page("Home.py")
+if st.button("Background"):
+    st.switch_page("Background.py")
+if st.button("Contact"):
+    st.switch_page("Contact.py")
