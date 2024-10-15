@@ -22,9 +22,9 @@ class MultiApp:
             default_index=1,
             styles={
                 "container": {"background-color":'blue'},
-                "icon": {"color": "white"}
-                "nav-link": {"color": "white"}
-                "nav-link-selected": {"background-color": "yellow"}
+                "icon": {"color": "white"},
+                "nav-link": {"color": "white"},
+                "nav-link-selected": {"background-color": "yellow"},
             }
             orientation="horizontal",
 
