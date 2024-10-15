@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write("background page check")
+def app():
+    st.write("background page check")
