@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 
 
 selected = option_menu(
-    #menu_title="Main Menu",
+    menu_title = None,
     options = ["Home","Background","Contact"],
     icons= ["house","book","envelope"],
     #menu_icon="cast",
